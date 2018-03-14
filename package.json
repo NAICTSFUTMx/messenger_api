@@ -1,0 +1,21 @@
+{
+    "name": "message_api",
+    "version": "1.0.0",
+    "description": "email and sms api for NAICTS",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "'Daemon'",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "emailjs": "^2.0.0",
+        "express": "^4.16.3",
+        "firebase": "^4.11.0",
+        "nodemailer": "^4.6.3"
+    },
+    "engines": {
+        "node": "6.11.2"
+    }
+}
